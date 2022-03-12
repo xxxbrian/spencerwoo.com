@@ -19,19 +19,20 @@ import BlogToc from '../../components/BlogToc'
 
 const Post: NextPage<{ page: any; blocks: any[] }> = ({ page, blocks }) => {
   const router = useRouter()
-  const hostname = typeof window !== 'undefined' ? window.location.origin : 'https://spencerwoo.com'
+  const hostname = typeof window !== 'undefined' ? window.location.origin : 'https://bojin.co'
 
   if (!page || !blocks) return <div></div>
 
   return (
     <div>
       <Head>
-        <title>{page.properties.name.title[0].plain_text} - Spencer&apos;s Blog</title>
-        <meta name="description" content="Spencer Woo" />
+        <title>{page.properties.name.title[0].plain_text} - xxxbrian&apos;s blog</title>
+        <meta name="description" content="Bojin Li" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
       <div className="flex flex-col min-h-screen dark:bg-dark-900">

@@ -1,4 +1,4 @@
-<samp><a href="https://spencerwoo.com" target="_blank" rel="noopener noreferrer">spencerwoo.com</a></samp>
+<samp><a href="https://bojin.co" target="_blank" rel="noopener noreferrer">bojin.co</a></samp>
 
 personal portfolio powered by **Next.js**.
 

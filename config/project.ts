@@ -1,4 +1,4 @@
-import { BookOpen, Cloud, FileText, Hexagon, Icon, Rss } from 'react-feather'
+import { CheckCircle, DollarSign, Icon, Link2, Tv } from 'react-feather'
 
 export interface ProjectProps {
   name: string
@@ -9,33 +9,27 @@ export interface ProjectProps {
 
 export const projectLinks: ProjectProps[] = [
   {
-    name: 'onedrive-vercel-index',
-    link: 'https://github.com/spencerwooo/onedrive-vercel-index',
-    slug: 'spencerwooo/onedrive-vercel-index',
-    icon: Cloud,
+    name: 'iptv',
+    link: 'https://github.com/xxxbrian/iptv',
+    slug: 'xxxbrian/iptv',
+    icon: Tv,
   },
   {
-    name: 'Substats',
-    link: 'https://github.com/spencerwooo/substats',
-    slug: 'spencerwooo/substats',
-    icon: Rss,
+    name: 'trojan.sh',
+    link: 'https://github.com/xxxbrian/trojan.sh',
+    slug: 'xxxbrian/trojan.sh',
+    icon: Link2,
   },
   {
-    name: 'BIThesis',
-    link: 'https://github.com/BITNP/BIThesis',
-    slug: 'BITNP/BIThesis',
-    icon: FileText,
+    name: 'UNSW-Moodle-Assistant',
+    link: 'https://github.com/xxxbrian/UNSW-Moodle-Assistant',
+    slug: 'xxxbrian/UNSW-Moodle-Assistant',
+    icon: CheckCircle,
   },
   {
-    name: 'vscode-math-to-image',
-    link: 'https://github.com/TeamMeow/vscode-math-to-image',
-    slug: 'TeamMeow/vscode-math-to-image',
-    icon: Hexagon,
-  },
-  {
-    name: 'dowww',
-    link: 'https://github.com/spencerwooo/dowww',
-    slug: 'spencerwooo/dowww',
-    icon: BookOpen,
+    name: 'AlgoTradingBot',
+    link: 'https://github.com/xxxbrian/AlgoTradingBot',
+    slug: 'xxxbrian/AlgoTradingBot',
+    icon: DollarSign,
   },
 ]

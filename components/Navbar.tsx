@@ -10,17 +10,13 @@ const navigations = [
     link: '/blog',
   },
   {
-    name: 'Publication',
-    link: '/publication',
-  },
-  {
     name: 'Links',
     link: '/links',
   },
-  {
-    name: 'Friends',
-    link: '/friends',
-  },
+  // {
+  //   name: 'Friends',
+  //   link: '/friends',
+  // },
 ]
 
 const MenuItemLink = (props: { [x: string]: any; href: any; children: any }) => {
@@ -36,7 +32,7 @@ const Navbar = () => {
   return (
     <header className="flex p-6 z-10 items-center justify-between primary-text">
       <Link href="/" passHref>
-        <a>Spencer</a>
+        <a>xxxbrian</a>
       </Link>
       <div className="flex space-x-4 items-center">
         <nav className="flex space-x-4 items-center hidden sm:block">

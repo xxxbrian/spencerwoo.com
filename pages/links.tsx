@@ -73,8 +73,8 @@ const Links: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Spencer Woo - Links</title>
-        <meta name="description" content="Spencer Woo" />
+        <title>Bojin Li - Links</title>
+        <meta name="description" content="Bojin Li" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -100,13 +100,6 @@ const Links: NextPage = () => {
             ))}
           </div>
 
-          <p className="font-mono text-xs text-center secondary-text">
-            Powered by{' '}
-            <a href="https://substats.spencerwoo.com" target="_blank" rel="noopener noreferrer">
-              Substats
-            </a>
-            .
-          </p>
         </main>
         <Footer />
       </div>

@@ -7,7 +7,7 @@ module.exports = {
     domains: [
       's3-us-west-2.amazonaws.com',
       's3.us-west-2.amazonaws.com',
-      'cdn.spencer.felinae98.cn',
+      // 'cdn.spencer.felinae98.cn',
       'avatars.githubusercontent.com',
       'avatars0.githubusercontent.com',
       'avatars1.githubusercontent.com',
